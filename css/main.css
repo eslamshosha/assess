@@ -6380,10 +6380,10 @@ nav .menu-close:focus {
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
   }
-  .brand-cont .nav-tabs{
+  .brands-btn-cont{
     gap: 20px;
   }
-  .brand-cont .nav-link{
+  .brand-btn{
     font-size: 14px;
     width: 105px;
   }
