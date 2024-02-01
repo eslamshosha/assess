@@ -21,7 +21,7 @@ $(document).ready(function () {
     loop: true,
     breakpoints: {
       0: {
-        slidesPerView: 2,
+        slidesPerView: 1,
         spaceBetween: 15,
       },
       767: {

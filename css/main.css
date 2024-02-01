@@ -105,7 +105,7 @@
 
 body {
   position: relative;
-  font-family: tajawal;
+  font-family: Ubuntu;
   font-weight: normal;
   color: var(--white-color);
   background-color: var(--black-color);
@@ -205,65 +205,38 @@ input[type="number"] {
 }
 
 @font-face {
-  font-family: "tajawal";
-  src: url("../fonts/TAJAWAL/Tajawal-ExtraLight.woff2") format("woff2"),
-    url("../fonts/TAJAWAL/Tajawal-ExtraLight.woff") format("woff"),
-    url("../fonts/TAJAWAL/Tajawal-ExtraLight.ttf") format("truetype");
-  font-weight: 200;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "tajawal";
-  src: url("../fonts/TAJAWAL/Tajawal-Light.woff2") format("woff2"),
-    url("../fonts/TAJAWAL/Tajawal-Light.woff") format("woff"),
-    url("../fonts/TAJAWAL/Tajawal-Light.ttf") format("truetype");
+  font-family: "Ubuntu";
+  src: url("../fonts/Ubuntu/Ubuntu-Light.woff2") format("woff2"),
+    url("../fonts/Ubuntu/Ubuntu-Light.woff") format("woff"),
+    url("../fonts/Ubuntu/Ubuntu-Light.ttf") format("truetype");
   font-weight: 300;
   font-style: normal;
 }
 
 @font-face {
-  font-family: "tajawal";
-  src: url("../fonts/TAJAWAL/Tajawal-Regular.woff2") format("woff2"),
-    url("../fonts/TAJAWAL/Tajawal-Regular.woff") format("woff"),
-    url("../fonts/TAJAWAL/Tajawal-Regular.ttf") format("truetype");
+  font-family: "Ubuntu";
+  src: url("../fonts/Ubuntu/Ubuntu-Regular.woff2") format("woff2"),
+    url("../fonts/Ubuntu/Ubuntu-Regular.woff") format("woff"),
+    url("../fonts/Ubuntu/Ubuntu-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: "tajawal";
-  src: url("../fonts/TAJAWAL/Tajawal-Medium.woff2") format("woff2"),
-    url("../fonts/TAJAWAL/Tajawal-Medium.woff") format("woff"),
-    url("../fonts/TAJAWAL/Tajawal-Medium.ttf") format("truetype");
+  font-family: "Ubuntu";
+  src: url("../fonts/Ubuntu/Ubuntu-Medium.woff2") format("woff2"),
+    url("../fonts/Ubuntu/Ubuntu-Medium.woff") format("woff"),
+    url("../fonts/Ubuntu/Ubuntu-Medium.ttf") format("truetype");
   font-weight: 500;
   font-style: normal;
 }
 
 @font-face {
-  font-family: "tajawal";
-  src: url("../fonts/TAJAWAL/Tajawal-Bold.woff2") format("woff2"),
-    url("../fonts/TAJAWAL/Tajawal-Bold.woff") format("woff"),
-    url("../fonts/TAJAWAL/Tajawal-Bold.ttf") format("truetype");
+  font-family: "Ubuntu";
+  src: url("../fonts/Ubuntu/Ubuntu-Bold.woff2") format("woff2"),
+    url("../fonts/Ubuntu/Ubuntu-Bold.woff") format("woff"),
+    url("../fonts/Ubuntu/Ubuntu-Bold.ttf") format("truetype");
   font-weight: bold;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "tajawal";
-  src: url("../fonts/TAJAWAL/Tajawal-ExtraBold.woff2") format("woff2"),
-    url("../fonts/TAJAWAL/Tajawal-ExtraBold.woff") format("woff"),
-    url("../fonts/TAJAWAL/Tajawal-ExtraBold.ttf") format("truetype");
-  font-weight: 800;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "tajawal";
-  src: url("../fonts/TAJAWAL/Tajawal-Black.woff2") format("woff2"),
-    url("../fonts/TAJAWAL/Tajawal-Black.woff") format("woff"),
-    url("../fonts/TAJAWAL/Tajawal-Black.ttf") format("truetype");
-  font-weight: 900;
   font-style: normal;
 }
 
@@ -1128,13 +1101,13 @@ html[dir="ltr"]
   left: 0;
   width: 100%;
   height: 100%;
-  border-radius: 35px;
+  border-radius: 55px;
   overflow: hidden;
 }
 
 .item .item-img img {
   width: 100%;
-  border-radius: 35px;
+  border-radius: 55px;
   max-width: 100%;
   max-height: 100%;
   -o-object-fit: cover;
@@ -2594,9 +2567,9 @@ html[dir="ltr"] .section-more {
   }
 }
 
-@media (max-width: 991px) {
+@media (max-width: 9767px) {
   .items-grid {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
     gap: 30px 15px;
   }
 }
