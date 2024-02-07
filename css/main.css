@@ -110,7 +110,9 @@ body {
   color: var(--white-color);
   background-color: var(--black-color);
 }
-
+html[dir="rtl"] body{
+  font-family: "Orleen";
+}
 * {
   scrollbar-width: thin;
   scrollbar-color: var(--main-color) #fff;
@@ -239,6 +241,76 @@ input[type="number"] {
   font-weight: bold;
   font-style: normal;
 }
+@font-face {
+  font-family: 'Orleen';
+  src: url('../fonts/orleen/OrleenMedium.woff2') format('woff2'),
+      url('../fonts/orleen/OrleenMedium.woff') format('woff'),
+      url('../fonts/orleen/OrleenMedium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Orleen';
+  src: url('../fonts/orleen/OrleenExtraLight.woff2') format('woff2'),
+      url('../fonts/orleen/OrleenExtraLight.woff') format('woff'),
+      url('../fonts/orleen/OrleenExtraLight.ttf') format('truetype');
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Orleen';
+  src: url('../fonts/orleen/OrleenLight.woff2') format('woff2'),
+      url('../fonts/orleen/OrleenLight.woff') format('woff'),
+      url('../fonts/orleen/OrleenLight.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Orleen';
+  src: url('../fonts/orleen/OrleenRegular.woff2') format('woff2'),
+      url('../fonts/orleen/OrleenRegular.woff') format('woff'),
+      url('../fonts/orleen/OrleenRegular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Orleen';
+  src: url('../fonts/orleen/OrleenBold.woff2') format('woff2'),
+      url('../fonts/orleen/OrleenBold.woff') format('woff'),
+      url('../fonts/orleen/OrleenBold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Orleen';
+  src: url('../fonts/orleen/OrleenThin.woff2') format('woff2'),
+      url('../fonts/orleen/OrleenThin.woff') format('woff'),
+      url('../fonts/orleen/OrleenThin.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Orleen';
+  src: url('../fonts/orleen/OrleenSemiBold.woff2') format('woff2'),
+      url('../fonts/orleen/OrleenSemiBold.woff') format('woff'),
+      url('../fonts/orleen/OrleenSemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
 
 .form-group {
   margin-bottom: 22px;
